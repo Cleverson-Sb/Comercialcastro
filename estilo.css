@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 :root {
     --cor0: #B14900;
@@ -10,7 +11,7 @@
     --cor3: #000000;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-destaque: 'Source Serif Pro', serif;
     --fonte-sub: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -91,8 +92,9 @@ div#corpo{
             }
 
             #conteudo1 h1{
+                font-weight: normal;
                 font-size: 4vw; 
-                font-family: var(--fonte-sub);
+                font-family: var(--fonte-destaque);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -105,7 +107,7 @@ div#corpo{
                 background-position: center center;
                 background-size: contain;
                 background-repeat: no-repeat;
-                width: 45vw;
+                width: 30vw;
                 height: 200px;
                 display: flex;
                 float: right;
@@ -114,3 +116,19 @@ div#corpo{
                 margin-right: 2vw;
                 margin-top: 355px;
             }
+
+    div#artigo2{
+        background-color: var(--cor3);
+        color: var(--cor2);
+        padding: 0;
+    }
+
+        #conteudo2 div#img2{
+            background-image: url(img/pexels-mikael-blomkvist-8961555.jpg);
+            background-attachment: local;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 375px;
+        }
