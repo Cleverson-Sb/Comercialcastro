@@ -132,3 +132,24 @@ div#corpo{
             width: 100%;
             height: 375px;
         }
+
+            #texto2{
+                width: 50vw;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                margin-top: 100px;
+            }
+
+                #texto2 h1{
+                    font-size: 4vw;
+                    text-align: center;
+                    font-family: var(--fonte-sub);
+                }
+
+                    #texto2 p{
+                        font-size: 1.5vw;
+                        max-width: 700px;
+                        font-family: var(--fonte-padrao);
+                        margin-top: 20px;
+                    }
