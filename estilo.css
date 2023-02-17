@@ -25,6 +25,7 @@ div#menu{
     background-color: var(--cor3);
     width: 100vw;
     height: 50px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.452);
 }
 
     #menu nav{
@@ -44,7 +45,7 @@ div#menu{
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                margin: 15px auto;
+                margin: 10px auto;
             }
 
                 #menu a{
@@ -278,4 +279,27 @@ div.artigo{
             font-family: var(--fonte-padrao);
             margin-top: 20px;
         }
+
+#img3{
+    display: none;
+}
+
+#conteudo3{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+    #conteudo3 #texto3{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 80vw;
+        margin-top: 10px;
+    }
+
+    
+
 }
