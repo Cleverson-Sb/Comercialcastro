@@ -84,7 +84,7 @@ div#corpo{
             }
 
             #conteudo1 h2{
-                font-size: 2vw;
+                font-size: 1em;
                 font-family: var(--fonte-sub);
                 display: flex;
                 justify-content: center;
@@ -93,7 +93,7 @@ div#corpo{
 
             #conteudo1 h1{
                 font-weight: normal;
-                font-size: 4vw; 
+                font-size: 2.5em; 
                 font-family: var(--fonte-destaque);
                 display: flex;
                 justify-content: center;
@@ -142,14 +142,14 @@ div#corpo{
             }
 
                 #texto2 h1{
-                    font-size: 4vw;
+                    font-size: 2.5em;
+                    font-weight: normal;
                     text-align: center;
-                    font-family: var(--fonte-sub);
-                    fle
+                    font-family: var(--fonte-destaque);
                 }
 
                     #texto2 p{
-                        font-size: 1.5vw;
+                        font-size: 1em;
                         max-width: 700px;
                         font-family: var(--fonte-padrao);
                         margin-top: 20px;
