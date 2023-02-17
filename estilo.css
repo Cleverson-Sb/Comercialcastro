@@ -62,7 +62,7 @@ div#corpo{
                 
     div.artigo{
         width: 100%;
-        height: 750px;
+        min-height: 750px;
         padding: 0;
     }
 
