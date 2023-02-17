@@ -212,7 +212,8 @@ div#corpo{
                     }
 
                 #texto3 p{
-                    font-size: 1em;
+                    font-size: 1.5em;
+                    font-weight: normal;
                     max-width: 700px;
                     font-family: var(--fonte-padrao);
                     margin-top: 20px;
