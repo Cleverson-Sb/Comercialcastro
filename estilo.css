@@ -30,7 +30,7 @@ div#menu{
 
     #menu nav{
         font-family: var(--fonte-sub);
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-bottom: 10px;
     }
 
@@ -41,13 +41,14 @@ div#menu{
         }
 
             #menu li{
-                display: flex;
+                background-image: linear-gradient(to right bottom, var(--cor0) 25%, var(--cor1), transparent);
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
                 margin: 10px auto;
+                padding: 5px;
+                border-radius: 5px;
             }
-
                 #menu a{
                     color:  var(--cor2);
                     text-decoration: none;
@@ -260,6 +261,12 @@ div#corpo{
             }
 
 @media only screen and (min-width: 320px) and (max-width: 750px){
+
+    #menu nav{
+        font-family: var(--fonte-sub);
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
 
 div.artigo{
     width: 100%;
