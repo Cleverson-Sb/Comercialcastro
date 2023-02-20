@@ -463,8 +463,9 @@ div.artigo{
         margin-bottom: 20px;
     }
 
-#img4{
+div#img4{
     display: flex;
+    margin-top: 0px;
 }
 
 #conteudo4{
@@ -481,8 +482,8 @@ div.artigo{
         justify-content: center;
         text-align: justify;
         width: 80vw;
-        margin-top: 60px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 0px;
     }
 
 }
