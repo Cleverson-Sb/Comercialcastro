@@ -219,6 +219,7 @@ div#corpo{
 
 #artigo4{
     background-color: var(--cor1);
+    color: var(--cor2);
 }
     #conteudo4{
         margin-top: 187.5px;
