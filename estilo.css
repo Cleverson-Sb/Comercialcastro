@@ -136,7 +136,7 @@ div#corpo{
                 justify-content: center;
                 align-items: center;
                 margin: auto;
-                margin-top: 100px;
+                margin-top: 50px;
             }
 
                 #texto2 h1{
@@ -221,7 +221,7 @@ div#corpo{
                     max-width: 700px;
                     text-align: justify;
                     font-family: var(--fonte-padrao);
-                    margin-top: 10px;
+                    margin-top: 5px;
                 }
 
 #artigo4{
@@ -229,7 +229,7 @@ div#corpo{
     color: var(--cor2);
 }
     #conteudo4{
-        margin-top: 187.5px;
+        
         display: inline-block;
     }
 
@@ -242,6 +242,7 @@ div#corpo{
         width: 40vw;
         height: 375px;
         float: left;;
+        margin-top: 187.5px;
     }
 
     #texto4{
@@ -251,7 +252,7 @@ div#corpo{
         justify-content: center;
         align-items: center;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 150px;
     }
 
         #texto4 h1{
