@@ -42,8 +42,20 @@ header{
         cursor: pointer;
     }
 
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
     .logo, .social{
         width: 25%;
+    }
+
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
     }
 
     .menu nav a{ 
@@ -147,8 +159,8 @@ div#corpo{
                 float: right;
                 justify-content: center;
                 align-items: center;
-                margin-right: 2vw;
-                margin-top: 355px;
+                margin-right: 5vw;
+                margin-top: 350px;
             }
 
     div#artigo2{
@@ -270,7 +282,7 @@ div#corpo{
     }
 
     div#img4{
-        background-image: url(img/unnamed.png);
+        background-image: url(img/Donuz.png);
         background-attachment: local;
         background-position: center center;
         background-size: contain;
