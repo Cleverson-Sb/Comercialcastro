@@ -244,33 +244,55 @@ div#corpo{
                     font-family: var(--fonte-destaque);
                 }
                  
-                #texto3 h2{
-                    font-size: 2em;
-                    font-weight: bold;
-                    font-family: var(--fonte-sub);
-                    justify-content: center;
-                    align-items: center;
-                    background-image: linear-gradient(to right bottom, green 25%, blue);
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    color: var(--cor3);
+                .atendimento{ 
+                    font-size: 1.2rem;
+                    background: transparent;
+                    border: 2px solid black;
+                    border-radius: 8px;
                     margin: 5px;
-                    padding: 2px;
+                    padding: 1rem 2rem;
+                    cursor: pointer;
+                    position: relative;
+                }
+
+                .atendimento::before {
+                    content: '';
+                    width: 0;
+                    height: 100%;
+                    background-color: #24D265;
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: all .5s ease;
+                    z-index: -1;
+                }
+
+                .atendimento:hover::before{
+                    width: 100%;
                 }
 
                     #texto3 a{
+                        font-size: 1.5em;
+                        font-weight: normal;
+                        font-family: var(--fonte-sub);
                         text-decoration: none;
+                        color: var(--cor2);
                     }
 
                 #texto3 p{
-                    font-size: 1.5em;
+                    font-size: 1em;
                     font-weight: normal;
                     max-width: 700px;
                     text-align: justify;
                     font-family: var(--fonte-padrao);
-                    margin-top: 5px;
+                    margin-top: 65px;
+                    margin-bottom: 10px;
                 }
+
+                    .linha2{
+                        margin-top: 10px !important;
+                    }
 
 #artigo4{
     background-color: var(--cor1);
