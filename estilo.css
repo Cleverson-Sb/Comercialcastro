@@ -79,7 +79,7 @@ header{
         height: 4px;
         background-image: linear-gradient(45deg, var(--cor0), #ff7100);
         position: absolute;
-        top: 30px;
+        top: 20px;
         left: 0;
         transition: width 0.5s;
     }
@@ -401,6 +401,10 @@ div#corpo{
             position: relative;
             margin: 0 auto;
         }
+
+        .menu .whatsapp{
+            display: none;
+        }
     
         .menu nav a::after{
             content: " ";
@@ -408,7 +412,6 @@ div#corpo{
             height: 4px;
             background-image: linear-gradient(45deg, var(--cor0), #ff7100);
             position: absolute;
-            top: 30px;
             left: 0;
             transition: width 0.5s;
         }
