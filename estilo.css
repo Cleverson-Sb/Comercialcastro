@@ -249,10 +249,12 @@ div#corpo{
                     border: 2px solid black;
                     border-radius: 8px;
                     margin: 15 5 px;
+                    background-color: transparent;
                     padding: 1rem 2rem;
                     cursor: pointer;
                     position: relative;
                     z-index: 0;
+                    margin-top: 20px;
                 }
 
                 .atendimento::before {
@@ -286,7 +288,7 @@ div#corpo{
                     max-width: 700px;
                     text-align: justify;
                     font-family: var(--fonte-padrao);
-                    margin-top: 65px;
+                    margin-top: 40px;
                     margin-bottom: 10px;
                 }
 
