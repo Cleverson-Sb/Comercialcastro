@@ -22,7 +22,7 @@
 
 header{
     position: fixed;
-    background-color: var(--cor3);
+    background-color: #204295;
     width: 100vw;
     padding: 10px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.452);
@@ -101,6 +101,26 @@ header{
         font-size: 20px;
         color: var(--cor2);
     }
+
+    .mobilimenuico button{
+        width: 40px;
+        height: 40px;
+        background-image: linear-gradient(45deg, var(--cor0), #ff7100);
+        border: flex;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-right: 10px;
+        display: none;
+    }
+
+    .mobilimenuico button i{
+        font-size: 20px;
+        color: var(--cor2);
+    }
+
+        .mobilimenu{
+            display: none;
+        }
 
 div#corpo{
     background-color: var(--cor2);
@@ -346,7 +366,6 @@ div#corpo{
 
     header{
         position: fixed;
-        background-color: var(--cor3);
         width: 100vw;
         padding: 10px;
         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.452);
@@ -356,33 +375,25 @@ div#corpo{
             max-width: 1080px;
             display: flex;
             flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin: auto;
+            margin: 0 auto;
         }
     
-        .logo img{
-            width: 150px;
-            cursor: pointer;
+        .logo{
             display: none;
         }
 
-        .logo{
+        .social{
             width: 0%;
         }
-    
-        .social{
-            width: 25%;
-        }
-    
+
         .menu nav a{ 
             font-family: var(--fonte-sub);
-            width: 75%;
+            width: 70%;
             margin: 0 auto;
         }
     
         .menu nav a{ 
-            font-size: 0.9em;
+            font-size: 1em;
             padding-right: 25px;
             text-decoration: none;
             color: var(--cor2);
@@ -522,4 +533,52 @@ div#img4{
         margin-bottom: 0px;
     }
 
+}
+
+@media screen and (max-width: 750px){
+    .social button{
+        display: none;
+    }
+
+    .mobilimenuico{
+        width: 30%;
+    }
+
+    .mobilimenuico button{
+        width: 30px;
+        height: 30px;
+        background-image: linear-gradient(45deg, var(--cor0), #ff7100);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 5px 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .mobilimenuico button i{
+        font-size: 1em;
+        color: var(--cor2);
+    }
+
+    .mobilimenu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobilimenu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+        margin: auto;
+    }
+    
+    .mobilimenu i{
+        font-size: 1.5em;
+    }
+
+    .open{
+        display: block;
+    }
 }
