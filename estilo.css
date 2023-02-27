@@ -20,6 +20,10 @@
     padding: 0px;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 header{
     position: fixed;
     background-color: var(--cor3);
