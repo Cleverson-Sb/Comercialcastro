@@ -24,6 +24,10 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+p{
+    text-indent: 20px;
+}
+
 header{
     position: fixed;
     background-color: var(--cor3);
