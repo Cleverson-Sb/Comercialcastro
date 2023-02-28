@@ -54,11 +54,11 @@ header{
     }
 
     .logo{
-        width: 20%;
+        width: 15%;
     }
 
     .social{
-        width: 35%;
+        width: 25%;
     }
 
     .social{
@@ -71,7 +71,7 @@ header{
     .menu nav a{ 
         font-family: var(--fonte-sub);
         width: 50%;
-        margin: 0 auto;
+        margin: auto;
     }
 
     .menu nav a{ 
@@ -218,7 +218,7 @@ div#corpo{
             }
 
                 #texto2 h1{
-                    font-size: 2.5em;
+                    font-size: 3em;
                     font-weight: normal;
                     text-align: center;
                     font-family: var(--fonte-destaque);
@@ -228,7 +228,8 @@ div#corpo{
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        font-size: 1em;
+                        text-indent: 20px;
+                        font-size: 1.5em;
                         max-width: 700px;
                         text-align: justify;
                         font-family: var(--fonte-padrao);
@@ -268,7 +269,7 @@ div#corpo{
             }
 
                 #texto3 h1{
-                    font-size: 2.5em;
+                    font-size: 3em;
                     font-weight: normal;
                     text-align: center;
                     font-family: var(--fonte-destaque);
@@ -285,6 +286,8 @@ div#corpo{
                     position: relative;
                     z-index: 0;
                     margin-top: 20px;
+                    transition-delay: 5s;
+                    -webkit-transition-delay: 5s;
                 }
 
                 .atendimento::before {
@@ -399,7 +402,6 @@ div#corpo{
         .menu nav a{ 
             font-family: var(--fonte-sub);
             width: 70%;
-            margin: 0 auto;
         }
     
         .menu nav a{ 
@@ -408,7 +410,7 @@ div#corpo{
             text-decoration: none;
             color: var(--cor2);
             position: relative;
-            margin: 0 auto;
+            margin: auto;
         }
     
         .menu nav a::after{
@@ -492,7 +494,7 @@ div.artigo{
     }
 
         #texto2 p{
-            font-size: 1em;
+            font-size: 1.2em;
             max-width: 700px;
             font-family: var(--fonte-padrao);
             margin-top: 20px;
@@ -572,14 +574,19 @@ div#img4{
     .mobilimenu ul{
         display: flex;
         flex-direction: column;
-        text-align: center;
         padding-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #donuz{
+        text-indent: -24px;
     }
 
     .mobilimenu .nav-item{
         display: block;
         padding-top: 1.2rem;
-        margin: 0 auto;
+        margin: auto;
     }
 
     .mobilimenu a{
@@ -587,7 +594,6 @@ div#img4{
         text-decoration: none;
         color: var(--cor2);
         font-size: 1em;
-
     }
 
     .mobilimenu button{
