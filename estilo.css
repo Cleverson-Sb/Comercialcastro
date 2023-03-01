@@ -518,13 +518,18 @@ div.artigo{
 }
 
     #conteudo3 #texto3{
+        font-size: 1em;
         display: block;
         justify-content: center;
         text-align: center;
         width: 80vw;
-        margin-top: 10px;
+        margin-top: 100px;
         margin-bottom: 20px;
     }
+
+        #texto3 p{
+            font-size: 1.2em;
+        }
 
 div#img4{
     display: flex;
