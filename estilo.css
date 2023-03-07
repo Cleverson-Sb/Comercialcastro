@@ -375,9 +375,44 @@ div#corpo{
                 margin-top: 20px;
             }
 
-.rodape{
-    height: 500px;
-    display: block;
+footer{
+    background-color: var(--cor3);
+    color: var(--cor2);
+    display: flex;
+    flex-direction: row;
+}
+
+footer div.imgroda{
+    width: 25%;
+}
+
+footer img{
+    width: 150px;
+    margin: 5px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.menufooter{
+    display: flex;
+    flex-direction: row;
+}
+
+footer nav{
+    font-size: 1.3em;
+    font-family: var(--fonte-padrao);
+    margin: 15px auto;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.linha-vertical{
+    border-left: 2px solid white;
+    height: 20px;
+    display: inline-block;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 750px){
@@ -554,6 +589,45 @@ div#img4{
         margin-top: 50px;
         margin-bottom: 0px;
     }
+
+footer{
+    background-color: var(--cor3);
+    color: var(--cor2);
+    display: flex;
+    flex-direction: row;
+}
+
+footer div.imgroda{
+    width: 0;
+    display: none;
+}
+
+footer img{
+    width: 150px;
+    margin: 5px auto; 
+}
+
+.menufooter{
+    display: flex;
+    flex-direction: row;
+}
+
+footer nav{
+    font-size: 3vw;
+    font-family: var(--fonte-padrao);
+    margin: 15px auto;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.linha-vertical{
+    border-left: 2px solid white;
+    height: 3vw;
+    display: inline-block;
+}
 
 }
 
