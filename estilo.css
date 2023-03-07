@@ -157,28 +157,26 @@ div#corpo{
     }
     div#texto1{
                 font-family: var(--fonte-destaque);
-                width: 48vw;
+                width: 100vw;
                 display: inline-block;
-                margin-top: 200px;
-                margin-left: 2vw;
+                margin-top: 250px !important;
+                margin: auto;
             }
 
             #conteudo1 h2{
-                font-size: 1.5em;
-                font-family: var(--fonte-sub);
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                display: none;
             }
 
             #conteudo1 h1{
                 font-weight: normal;
                 font-size: 2.5em; 
+                width: 100vw;
                 font-family: var(--fonte-destaque);
-                display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-top: 175px;
+                display: flex;
+                margin-top: ;
+                margin: 0 auto;
             }
 
             #conteudo1 div#img1{
@@ -187,14 +185,12 @@ div#corpo{
                 background-position: center center;
                 background-size: contain;
                 background-repeat: no-repeat;
-                width: 30vw;
+                width: 50vw;
                 height: 200px;
-                display: flex;
-                float: right;
                 justify-content: center;
                 align-items: center;
-                margin-right: 5vw;
-                margin-top: 350px;
+                margin: 0 auto;
+                margin-top: 100px;
             }
 
     div#artigo2{
@@ -378,6 +374,11 @@ div#corpo{
                 text-align: justify;
                 margin-top: 20px;
             }
+
+.rodape{
+    height: 500px;
+    display: block;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 750px){
 
