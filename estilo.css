@@ -101,6 +101,12 @@ header{
         width: 30px;
     }
 
+    .linha-vertical-menu{
+        border-left: 2px solid white;
+        height: 0.8em;
+        display: none;
+    }
+
     .social button{
         width: 40px;
         height: 40px;
@@ -175,7 +181,6 @@ div#corpo{
                 justify-content: center;
                 align-items: center;
                 display: flex;
-                margin-top: ;
                 margin: 0 auto;
             }
 
@@ -440,6 +445,10 @@ footer nav a{
             width: 0%;
         }
 
+        .menu{
+            margin-left: 2vw;
+        }
+
         .menu nav a{ 
             font-family: var(--fonte-sub);
             width: 70%;
@@ -447,7 +456,7 @@ footer nav a{
     
         .menu nav a{ 
             font-size: 1em;
-            padding-right: 25px;
+            padding-right: 5vw;
             text-decoration: none;
             color: var(--cor2);
             position: relative;
@@ -466,6 +475,12 @@ footer nav a{
     
         .menu nav a:hover::after{
             width: 30px;
+        }
+
+        .linha-vertical-menu{
+            border-left: 2px solid white;
+            height: 0.8em;
+            display: none;
         }
     
         .social button{
@@ -510,7 +525,7 @@ div.artigo{
 
             #texto1 h1{
                 font-size: 2em;
-                margin-top: 100px;
+                margin-top: 0;
             }
 
             #conteudo1 div#img1{
@@ -633,6 +648,9 @@ footer nav a{
 }
 
 @media screen and (max-width: 750px){
+
+
+
     .social button{
         display: none;
     }
@@ -697,5 +715,31 @@ footer nav a{
 
     .open{
         display: block;
+    }
+}
+
+@media screen and (max-width: 437px){
+    .menu{
+        margin-left: 2vw;
+    }
+
+    .menu nav a{ 
+        font-family: var(--fonte-sub);
+        width: 70%;
+    }
+
+    .menu nav a{ 
+        font-size: 1em;
+        padding-right: 1px;
+        text-decoration: none;
+        color: var(--cor2);
+        position: relative;
+        margin: auto;
+    }
+
+    .linha-vertical-menu{
+        border-left: 2px solid white;
+        height: 0.8em;
+        display: inline-block;
     }
 }
