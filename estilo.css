@@ -401,10 +401,12 @@ footer img{
 .menufooter{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 footer nav{
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: lighter;
     font-family: var(--fonte-padrao);
     margin: 15px auto;
@@ -630,7 +632,7 @@ footer img{
 }
 
 footer nav{
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: var(--fonte-padrao);
     margin: 15px auto;
 }
@@ -745,7 +747,7 @@ footer nav a{
     }
 
     footer nav{
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: lighter;
         font-family: var(--fonte-padrao);
         margin: 15px auto;
@@ -754,7 +756,7 @@ footer nav a{
 
     .linha-vertical{
         border-left: 2px solid white;
-        height: 0.8em;
+        height: 0.86em;
         display: inline-block;
     }
 }
