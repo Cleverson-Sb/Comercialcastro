@@ -572,7 +572,7 @@ div.artigo{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 0;
 }
 
     #conteudo3 #texto3{
@@ -581,11 +581,15 @@ div.artigo{
         justify-content: center;
         text-align: center;
         width: 80vw;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 20px;
     }
 
-        #texto3 p{
+    #texto3 h1{
+        font-size: 2em;
+    }
+
+    #texto3 p{
             font-size: 1.2em;
         }
 
@@ -655,8 +659,6 @@ footer nav a{
 
 @media screen and (max-width: 750px){
 
-
-
     .social button{
         display: none;
     }
@@ -682,7 +684,7 @@ footer nav a{
 
     .mobilimenu ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding-bottom: 1rem;
         align-items: center;
         justify-content: center;
