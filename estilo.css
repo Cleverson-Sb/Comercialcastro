@@ -309,6 +309,15 @@ div#corpo{
                         width: 100%;
                         height: 100%;
                     }
+
+                    div#primeira{
+                        background-image: url(img/frente-loja.jpeg);
+                        background-color: #204295;
+                        background-position: top center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-attachment: local;
+                    }
                     
                     #radio1:checked ~ .frist{
                         margin-left: 0;
