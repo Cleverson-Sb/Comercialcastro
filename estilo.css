@@ -278,7 +278,7 @@ div#corpo{
                     }
                     
                     .manual-btn{
-                        border: 2px solid #fff;
+                        border: 2px solid var(--cor0);
                     
                         padding: 10px;
                         border-radius: 20px;
@@ -290,7 +290,7 @@ div#corpo{
                     }
                     
                     .manual-btn:hover{
-                        background-color: #fff;
+                        background-color: var(--cor0);
                         transition: 0.4s;
                     }
                     
