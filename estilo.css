@@ -245,6 +245,87 @@ div#corpo{
                         margin-top: 20px;
                         padding: 20px 0px;
                     }
+
+                    .banner{
+                        width: 100%;
+                        height: 500px;
+                        justify-content: center;
+                        display: flex;
+                    }
+            
+                    .slider{
+                        width: 80vw;
+                        max-width: 1300px;
+                        height: 500px;
+                        overflow: hidden;
+                        position: absolute;
+                    }
+                    
+                    .slides{
+                        display: flex;
+                    }
+                    
+                    .navigation-bar{
+                        position: absolute;
+                        bottom: 20px;
+                        display: flex;
+                        left: 50%;
+                        transform: translate(-50%);
+                    }
+                    
+                    input{
+                        display: none;
+                    }
+                    
+                    .manual-btn{
+                        border: 2px solid #fff;
+                    
+                        padding: 10px;
+                        border-radius: 20px;
+                        cursor: pointer;
+                    }
+                    
+                    .manual-btn:not(:last-child){
+                        margin-right: 40px;
+                    }
+                    
+                    .manual-btn:hover{
+                        background-color: #fff;
+                        transition: 0.4s;
+                    }
+                    
+                    .slides{
+                        display: flex;
+                        width: 400%;
+                        height: 100%;
+                    }
+                    
+                    .slide{
+                        width: 25%;
+                        transition: 0.5s;
+                    }
+                    
+                    .slide img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                    #radio1:checked ~ .frist{
+                        margin-left: 0;
+                    }
+                    
+                    #radio2:checked ~ .frist{
+                        margin-left: -25%;
+                    }
+                    
+                    #radio3:checked ~ .frist{
+                        margin-left: -50%;
+                    }
+                    
+                    #radio4:checked ~ .frist{
+                        margin-left: -75%;
+                    }
+            
     
     #artigo3{
         background-color: var(--cor0);
@@ -575,7 +656,6 @@ div.artigo{
             margin: auto;
         }
 
-    
 #img3{
     display: none;
 }
