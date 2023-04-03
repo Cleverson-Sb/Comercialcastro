@@ -298,7 +298,6 @@ div#corpo{
                     
                     .manual-btn{
                         border: 2px solid var(--cor0);
-                    
                         padding: 10px;
                         border-radius: 20px;
                         cursor: pointer;
@@ -321,7 +320,7 @@ div#corpo{
                     
                     .slide{
                         width: 25%;
-                        transition: 0.5s;
+                        transition: 2s;
                     }
                     
                     .slide img{
