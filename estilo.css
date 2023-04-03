@@ -206,6 +206,7 @@ div#corpo{
         background-color: var(--cor3);
         color: var(--cor2);
         padding: 0;
+        padding-top: 25px;
     }
 
         #conteudo2 div#img2{
@@ -354,7 +355,7 @@ div#corpo{
                         background-attachment: local;
                     }
                     div#slide3{
-                        background-image: url(img/pexels-mikael-blomkvist-8961555.jpg);
+                        background-image: url(img/frente-loja.jpeg);
                         background-color: #204295;
                         background-position: center center;
                         background-size: cover;
