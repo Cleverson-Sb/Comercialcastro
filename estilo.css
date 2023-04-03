@@ -308,8 +308,8 @@ div#corpo{
                     }
                     
                     .manual-btn:hover{
-                        background-color: var(--cor0);
                         transition: 0.4s;
+                        background-color: var(--cor0);
                     }
                     
                     .slides{
@@ -378,7 +378,6 @@ div#corpo{
                     #radio4:checked ~ .frist{
                         margin-left: -75%;
                     }
-            
     
     #artigo3{
         background-color: var(--cor0);
