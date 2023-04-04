@@ -255,10 +255,10 @@ div#corpo{
                         display: flex;
                         margin: auto;
                         width: 82vw;
-                        max-width: 820px;
-                        height: 520px;
+                        max-width: 810px;
+                        height: 510px;
                         background-image: linear-gradient(to right bottom, var(--cor1) 60%, var(--cor0));
-                        border-radius: 10px;
+                        border-radius: 7px;
                         box-shadow: 5px 6px 20px rgba(255, 255, 255, 0.075);
                     }
 
@@ -267,7 +267,7 @@ div#corpo{
                         height: 500px;
                         justify-content: center;
                         align-items: center;
-                        margin-top: 10px;
+                        margin-top: 5px;
                         display: flex;
                     }
             
@@ -714,10 +714,8 @@ div.artigo{
             display: flex;
             margin: auto;
             width: 82vw;
-            max-width: 820px;
-            height: 320px;
+            height: 310px;
             background-image: linear-gradient(to right bottom, var(--cor1) 60%, var(--cor0));
-            border-radius: 10px;
             box-shadow: 5px 6px 20px rgba(255, 255, 255, 0.075);
         }
 
