@@ -499,6 +499,7 @@ div#corpo{
         align-items: center;
         margin: auto;
         margin-top: 150px;
+        margin-bottom: 20px;
     }
 
         #texto4 h1{
@@ -514,6 +515,7 @@ div#corpo{
                 font-family: var(--fonte-padrao);
                 text-align: justify;
                 margin-top: 20px;
+                
             }
 
 footer{
