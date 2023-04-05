@@ -329,12 +329,23 @@ div#corpo{
                     }
 
                     div#slide0{
-                        background-image: url(img/frente-loja.jpeg);
-                        background-color: #204295;
                         background-position: top center;
                         background-size: cover;
                         background-repeat: no-repeat;
                         background-attachment: local;
+                        animation: teste 7s infinite;
+                    }
+
+                    @keyframes teste{
+                        0%{
+                            background-image: url(img/frente.jpeg);
+                        }
+                        50%{
+                            background-image: url(img/lustres.jpeg);
+                        } 
+                        100%{
+                            background-image: url(img/pisos.jpeg);
+                        }
                     }
 
                     div#slide1{
@@ -724,7 +735,7 @@ div.artigo{
             height: 300px;
             justify-content: center;
             align-items: center;
-            margin-top: 10px;
+            margin-top: 5px;
             display: flex;
         }
 
