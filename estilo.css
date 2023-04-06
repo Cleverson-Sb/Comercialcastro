@@ -557,7 +557,7 @@ footer img{
 footer nav{
     font-size: 0.9em;
     font-weight: lighter;
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-sub);
     margin: 15px auto;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.452);
 }
