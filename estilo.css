@@ -568,9 +568,17 @@ footer nav{
     display: inline-block;
 }
 
+.linha-vertical:not(:last-child){
+    margin-right: 2.5px;
+}
+
 footer nav a{
     text-decoration: none;
     color: var(--cor2);
+}
+ 
+footer nav a:not(:last-child){
+    margin-right: 2.5px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 750px){
