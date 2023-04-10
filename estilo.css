@@ -329,11 +329,11 @@ div#corpo{
                     }
 
                     div#slide0{
-                        background-position: top center;
-                        background-size: cover;
+                        background-position: bottom right;
+                        background-size: 100% auto;
                         background-repeat: no-repeat;
                         background-attachment: local;
-                        animation: teste 7s infinite;
+                        background-image: url(img/frente.jpeg);
                     }
 
                     @keyframes teste{
@@ -349,23 +349,23 @@ div#corpo{
                     }
 
                     div#slide1{
-                        background-image: url(img/lado1.jpeg);
+                        background-image: url(img/lustres.jpeg);
                         background-color: #204295;
-                        background-position: bottom center;
+                        background-position: top center;
                         background-size: cover;
                         background-repeat: no-repeat;
                         background-attachment: local;
                     }
                     div#slide2{
-                        background-image: url(img/lado2.jpeg);
+                        background-image: url(img/tintas-2.jpeg);
                         background-color: #204295;
-                        background-position: center center;
-                        background-size: cover;
+                        background-position: center;
+                        background-size: 100% auto;
                         background-repeat: no-repeat;
                         background-attachment: local;
                     }
                     div#slide3{
-                        background-image: url(img/frente-loja.jpeg);
+                        background-image: url(img/piso.jpeg);
                         background-color: #204295;
                         background-position: center center;
                         background-size: cover;
