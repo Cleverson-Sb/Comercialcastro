@@ -137,9 +137,10 @@ header{
         display: none;
     }
 
-    .mobilimenuico button i{
-        font-size: 1em;
-        color: var(--cor2);
+    .mobilimenuico button img{
+        width: 30px;
+        margin: auto;
+        display: block;
     }
 
         .mobilimenu{
@@ -912,7 +913,7 @@ footer nav a{
     }
     
     .mobilimenu i{
-        font-size: 1em;
+        font-size: 1.27em;
         color: var(--cor2);
     }
 
