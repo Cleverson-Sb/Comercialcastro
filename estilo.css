@@ -859,7 +859,7 @@ footer nav a{
     }
 
     .mobilimenuico{
-        width: 30%;
+        width: 25%;
     }
 
     .mobilimenuico button{
@@ -918,17 +918,17 @@ footer nav a{
 
 @media screen and (max-width: 437px){
     .menu{
-        margin-left: 2vw;
+        margin-left: 0vw;
     }
 
     .menu nav a{ 
         font-family: var(--fonte-sub);
-        width: 70%;
+        width: 75%;
     }
 
     .menu nav a{ 
         font-size: 1em;
-        padding-right: 1px;
+        padding-right: 5px;
         text-decoration: none;
         color: var(--cor2);
         position: relative;
@@ -939,6 +939,10 @@ footer nav a{
         border-left: 2px solid white;
         height: 0.8em;
         display: inline-block;
+    }
+
+    .mobilimenuico{
+        width: 25%;
     }
 
     footer nav{
