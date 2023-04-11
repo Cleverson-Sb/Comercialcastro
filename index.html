@@ -8,12 +8,14 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
     <script src="https://kit.fontawesome.com/570cb2c40c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="path-para-seu-script"></script>
 </head>
     <header>
         <div class="conteiner">
             <div class="logo"><img src="img/logo comercial castro white-p.png" alt=""></div>
             <div class="menu">
-                <nav>
+                <nav id="nav">
                     <a href="#artigo1" target="_self">Home</a>
                     <div class="linha-vertical-menu"></div>
                     <a href="#artigo2" target="_self">Sobre nós</a>
@@ -23,6 +25,17 @@
                     <div class="linha-vertical-menu"></div>
                     <a href="#artigo4" target="_self">Donuz</a>
                 </nav>
+                <script>
+                   $('#nav a[href^="#"]').on('click', function(e) {
+	e.preventDefault();
+	var id = $(this).attr('href'),
+			targetOffset = $(id).offset().top;
+			
+	$('html, body').animate({ 
+		scrollTop: targetOffset -50
+	}, 80);
+});
+                </script>
             </div>
             <div class="social">
                 <button><a href="https://instagram.com/comercial_castro_?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></a></i></button>
