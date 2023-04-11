@@ -122,18 +122,18 @@ header{
         }
 
     .mobilimenuico button{
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         background-image: linear-gradient(45deg, var(--cor0), #ff7100);
         border: flex;
-        border-radius: 8px;
+        border-radius: 3px;
         cursor: pointer;
         margin-right: 10px;
         display: none;
     }
 
         .mobilimenuico button img{
-            width: 30px;
+            width: 28px;
             margin: auto;
             display: block;
         }
@@ -867,11 +867,11 @@ footer nav a{
     }
 
     .mobilimenuico button{
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         background-image: linear-gradient(45deg, var(--cor0), #ff7100);
         border: none;
-        border-radius: 8px;
+        border-radius: 3px;
         cursor: pointer;
         display: block;
         margin: 0 auto;
