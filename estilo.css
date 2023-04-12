@@ -130,6 +130,7 @@ header{
         cursor: pointer;
         margin-right: 10px;
         display: none;
+        font-style: none;
     }
 
         .mobilimenuico button img{
@@ -196,24 +197,9 @@ div.artigo{
 
     div#artigo2{
         background-color: var(--cor3);
-        color: var(--cor2);
-        padding: 0;
-        padding-top: 25px;
+        color: var(--cor2); 
+        padding: 25px 0;
     }
-
-        #conteudo2 div#img2{
-            background-image: url("img/frente-loja.jpeg");
-            background-attachment: local;
-            background-position: center center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 95vw;
-            max-width: 1500px;
-            height: 500px;
-            object-fit: cover;
-            margin: auto;
-        }
-
             #texto2{
                 width: 80vw;
                 justify-content: center;
@@ -249,7 +235,7 @@ div.artigo{
             width: 82vw;
             max-width: 810px;
             height: 510px;
-            background-image: linear-gradient(to right bottom, var(--cor1) 60%, var(--cor0));
+            background-image: linear-gradient(to right bottom, var(--cor1) 55%, var(--cor0));
             border-radius: 7px;
             box-shadow: 5px 6px 20px rgba(255, 255, 255, 0.075);
         }
@@ -786,6 +772,7 @@ div.artigo{
 div#img4{
     display: flex;
     margin-top: 0px;
+    height: 300px;
 }
 
 #conteudo4{
