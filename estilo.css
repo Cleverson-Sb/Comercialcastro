@@ -935,6 +935,7 @@ footer nav a{
     .mobilimenuico{
         width: 25%;
         text-decoration: none;
+        outline: none;
     }
 
     footer nav{
