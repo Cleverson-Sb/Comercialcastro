@@ -262,7 +262,18 @@ div.artigo{
             background-image: linear-gradient(to right bottom, var(--cor1) 55%, var(--cor0));
             border-radius: 7px;
             box-shadow: 5px 6px 20px rgba(255, 255, 255, 0.075);
-            animation: fadeBotton 2s;
+            animation: fadeBottonQuadro 2s;
+        }
+
+        @keyframes fadeBottonQuadro{
+            0%{
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100%{
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
             .banner{
@@ -272,13 +283,13 @@ div.artigo{
                 align-items: center;
                 margin-top: 5px;
                 display: flex;
-                animation: fadeBotton 2.5s;
+                animation: fadeBottonBanner 1.25s;
             }
 
-        @keyframes fadeBotton{
+        @keyframes fadeBottonBanner{
             0%{
                 opacity: 0;
-                transform: translateY(50px);
+                transform: translateY(25px);
             }
             100%{
                 opacity: 1;
