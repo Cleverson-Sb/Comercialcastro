@@ -179,7 +179,19 @@ div.artigo{
                 align-items: center;
                 display: flex;
                 margin: 0 auto;
+                animation: fadeInLeft 2s;
             }
+
+            @keyframes fadeInLeft {
+                0% {
+                   opacity: 0;
+                   transform: translateX(-50px);
+                }
+                100% {
+                   opacity: 1;
+                   transform: translateX(0);
+                }
+             }
 
             #conteudo1 div#img1{
                 background-image: url(img/logo\ comercial\ castro\ white.png);
@@ -193,7 +205,19 @@ div.artigo{
                 align-items: center;
                 margin: 0 auto;
                 margin-top: 100px;
+                animation: fadeInRight 2s;
             }
+
+            @keyframes fadeInRight {
+                0% {
+                   opacity: 0;
+                   transform: translateX(50px);
+                }
+                100% {
+                   opacity: 1;
+                   transform: translateX(0);
+                }
+             }
 
     div#artigo2{
         background-color: var(--cor3);
@@ -238,6 +262,7 @@ div.artigo{
             background-image: linear-gradient(to right bottom, var(--cor1) 55%, var(--cor0));
             border-radius: 7px;
             box-shadow: 5px 6px 20px rgba(255, 255, 255, 0.075);
+            animation: fadeIn 5s;
         }
 
             .banner{
@@ -247,6 +272,7 @@ div.artigo{
                 align-items: center;
                 margin-top: 5px;
                 display: flex;
+                animation: fadeIn 5.5s;
             }
     
                 .slider{
