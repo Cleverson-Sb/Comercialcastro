@@ -1002,40 +1002,37 @@ footer nav a{
 #conteudo3 div#img3{
     display: none;
 }
-    #conteudo3{
-        display: inline-block;
+#conteudo3{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+}
+
+    #conteudo3 #texto3{
+        display: block;
         justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-top: 0;
+        text-align: center;
+        width: 90vw;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
-    
-        #conteudo3 #texto3{
-            display: block;
-            justify-content: center;
-            text-align: center;
-            width: 90vw;
-            margin: auto;
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
 
-            #texto3 p{
-                align-items: center;
-                justify-content: center;
-                text-indent: 20px;
-                font-size: 1.5em;
-                max-width: 900px;
-                text-align: justify;
-                font-family: var(--fonte-padrao);
-                margin: auto;
-                margin-top: 20px;
-                padding: 20px 0px;
-            }
+    #texto3 p{
+        align-items: center;
+        justify-content: center;
+        text-indent: 20px;
+        font-size: 1.5em;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-            #linhaWhatsapp{
-                margin: auto;
-                width: 100vw;
-            }
+    #linhaWhatsapp{
+        margin: auto;
+        
+    }
     
 }
