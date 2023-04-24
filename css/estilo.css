@@ -916,7 +916,7 @@ footer nav a{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: start;
     }
 
     .mobilimenu .nav-item{
