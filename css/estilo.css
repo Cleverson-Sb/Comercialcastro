@@ -453,7 +453,7 @@ div.artigo{
                 width: 40vw;
                 height: 375px;
                 float: left;
-                margin-top: 185.5px;
+                margin-top: 25vh;
             }
 
             #texto3{
@@ -916,7 +916,7 @@ footer nav a{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .mobilimenu .nav-item{
@@ -995,4 +995,47 @@ footer nav a{
         height: 0.86em;
         display: inline-block;
     }
+}
+
+@media screen and (max-width: 1300px){
+    
+#conteudo3 div#img3{
+    display: none;
+}
+    #conteudo3{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+    }
+    
+        #conteudo3 #texto3{
+            display: block;
+            justify-content: center;
+            text-align: center;
+            width: 90vw;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+            #texto3 p{
+                align-items: center;
+                justify-content: center;
+                text-indent: 20px;
+                font-size: 1.5em;
+                max-width: 900px;
+                text-align: justify;
+                font-family: var(--fonte-padrao);
+                margin: auto;
+                margin-top: 20px;
+                padding: 20px 0px;
+            }
+
+            #linhaWhatsapp{
+                margin: auto;
+                width: 100vw;
+            }
+    
 }
