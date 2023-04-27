@@ -545,7 +545,16 @@ div.artigo{
                 height: 375px;
                 float: left;;
                 margin-top: 187.5px;
+                transition: 2s;
+                
             }
+
+                div#img4:hover{
+                    background-image: url(img/donuzLaranja.png);
+                    transition: 2s;
+                    width: 35vw;
+                    height: 275px;
+                }
 
             #texto4{
                 display: flex;
