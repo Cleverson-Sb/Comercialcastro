@@ -798,6 +798,10 @@ div.artigo{
             margin-top: 256px;
         }
 
+        #texto3 hr{
+            width: 80vw;
+        }
+
 #img3{
     display: none;
 }
