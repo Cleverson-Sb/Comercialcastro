@@ -464,7 +464,7 @@ div.artigo{
                 justify-content: center;
                 align-items: center;
                 margin: auto;
-                margin-top: 100px;
+                margin-top: 65px;
             }
 
                 #texto3 h1{
@@ -478,7 +478,6 @@ div.artigo{
                     font-size: 1.2rem;
                     border: 2px solid black;
                     border-radius: 8px;
-                    margin: 15 5 px;
                     background-color: transparent;
                     padding: 1rem 2rem;
                     cursor: pointer;
@@ -858,7 +857,7 @@ div#img4{
         }
 
          #conteudo4 #texto4 p{
-            font-size: 0.8em;
+            font-size: 0.8em!important;
         }
 
 footer{
@@ -1027,7 +1026,7 @@ footer nav a{
     }
 
     #texto3 h1{
-        margin-top: 100px;
+        margin-top: 65px;
         font-size: 2.5em;
     }
 
