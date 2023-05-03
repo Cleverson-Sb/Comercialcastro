@@ -248,9 +248,14 @@ div.artigo{
                         max-width: 900px;
                         text-align: justify;
                         font-family: var(--fonte-padrao);
+                        margin: auto; 
+                        padding: 10px 0px;
+                    }
+
+                    #texto2 hr{
                         margin: auto;
-                        margin-top: 20px;
-                        padding: 20px 0px;
+                        width: 80vw;
+                        max-width: 900px;
                     }
 
         .quadro{
