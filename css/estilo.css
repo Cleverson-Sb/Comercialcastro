@@ -838,7 +838,8 @@ div.artigo{
 div#img4{
     display: flex;
     margin-top: 0px;
-    height: 300px;
+    height: 200px !important;
+
 }
 
 #conteudo4{
@@ -866,6 +867,7 @@ div#img4{
          #conteudo4 #texto4 p{
             font-size: 0.8em!important;
         }
+
 
 footer{
     background-color: var(--cor3);
@@ -1062,6 +1064,7 @@ footer nav a{
     div#img4{
         display: flex;
         height: 300px;
+        margin-top: 0;
     }
     
     #conteudo4{
