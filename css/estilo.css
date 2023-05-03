@@ -516,6 +516,7 @@ div.artigo{
                             font-family: var(--fonte-sub);
                             text-decoration: none;
                             color: var(--cor2);
+                            margin-bottom: 20px;
                         }
 
                         #texto3 p{
@@ -524,9 +525,9 @@ div.artigo{
                             max-width: 700px;
                             text-align: justify;
                             font-family: var(--fonte-padrao);
-                            margin-top: 40px;
-                            margin-bottom: 10px;
+                            margin: 10px;
                         }
+
     #artigo4{
         background-color: var(--cor1);
         color: var(--cor2);
@@ -831,7 +832,7 @@ div.artigo{
     }
 
     #texto3 p {
-            margin: 15px auto !important;
+            margin: 5px auto !important;
             font-size: 1.05em!important;
         }
 
