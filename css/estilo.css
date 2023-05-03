@@ -944,6 +944,10 @@ footer nav a{
         margin: 0 5px;
     }
 
+    .mobilimenu .nav-item:first-child{
+        margin-left: 12px;
+    }
+
     .mobilimenu a{
         font-family: var(--fonte-sub);
         text-decoration: none;
